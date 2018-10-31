@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'e_learning' => 'E-LEARNING',
+    'login' => 'Đăng Nhập',
+    'register' => 'Đăng Ký',
+    'xem_thong_tin' => 'Xem thông tin cá nhân',
+    'doi_mat_khau' => 'Đổi mật khẩu',
+    'logout' => 'Đăng xuất',
+    'have_registered' => 'Khóa Đã Đăng Ký',
+    'unregistered' => 'Khóa Chưa Đăng Ký',
+    'finished_school' => 'Đã học xong',
+    'your_course' => 'Khóa học của bạn',
+    'test' => 'Kho Bài Test',
+    'personal_information' => 'Thông Tin Cá Nhân',
+    'emailAddress' => 'Email Address',
+    'password' => 'Password',
+    'passConfirm' => 'Password Confim',
+    'promotions' => 'Chương trình khuyến mãi',
+    'combo_course' => 'Ưu đãi Combo khóa học',
+    'special_offer' => 'Ưu đãi đặc biệt',
+    'people_with_disabilities' => 'Ưu đãi cho người khuyết tật',
+    'birthday_gift' => 'Quà sinh nhật',
+    'useful_links' => 'Liên kết Hữu ích',
+    'tuition' => 'Thanh toán học phí ',
+    'course_review' => 'Nhận xét khóa học',
+    'support_channel' => 'KÊNH HỖ TRỢ',
+    'registration_instructions_skype' => 'Hướng dẫn ghi danh (Skype)',
+    'registration_instructions_fb' => 'Hướng dẫn ghi danh (Facebook)',
+    'discussion_group' => 'Group Thảo Luận',
+    'your_courses' => 'Các khoá học của bạn',
+];
+
