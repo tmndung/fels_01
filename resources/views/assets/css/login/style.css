@@ -1,0 +1,297 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body{
+    font-family: Avenir,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper{
+    padding-bottom: 54px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.error{
+    color: red;
+}
+
+ul, ol {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+li{
+    list-style: none;
+}
+a:hover, a:focus{
+    text-decoration: none
+}
+[class*=heading-] {
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.logo {
+    margin: 20px 0;
+}
+.logo a {
+    display: inline-block;
+    background-repeat: no-repeat;
+
+}
+
+div.banner-ads > a{
+     border: 1px solid #fff;
+}
+
+.sf-heading {
+    text-align: left;
+    line-height: 36px;
+    letter-spacing: 3px;
+    font-family: inherit;
+}
+.under-sep {
+    position: relative;
+}
+.heading-md {
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.features-list {
+    margin-top: 30px;
+}
+.bg-wrap{
+    background: #D3FBE8;
+    min-height: 330px;
+    padding: 2px 15px;
+}
+
+.heading-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.signin-form {
+    padding: 10px 0;
+}
+.signup-form{
+    margin: 0px 0;
+}
+.input-normal {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 40px;
+    padding: 4px 20px 0;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.input-bordered {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid hsla(0,0%,59%,.5);
+}
+.input-bordered:focus {
+    border-color: #3ac2cc;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3ac2cc;
+}
+.btn-md {
+    height: 40px;
+    padding: 0 33px;
+    font-size: 13px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.logo-mobile img{
+    display: block;
+    margin: auto;
+}
+.signup-page {
+    margin-bottom: 30px;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+header{
+    background: #2a75ab;
+    padding: 10px;
+}
+
+header .container{
+    background: url('../images/bag_bane.png') 0% 100% no-repeat;
+}
+header .logo-text {
+    padding-left: 11px;
+}
+footer{
+   background: #272727;
+   padding: 10px;
+}
+label.error {
+    color: #f00;
+    font-size: 12px;
+    padding: 2px;
+}
+.copyright{
+    color: #fff;
+}
+.content-text{
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    padding-left: 30px;
+    background: rgba(0, 0, 0, 0.37);
+}
+
+#JiSlider{
+    position: relative !important;
+}
+.jislider__controller {
+    position: absolute;
+    bottom: 5px !important;
+    float: right;
+    left: inherit !important;
+    right: 0px !important;
+}
+.wrap-slider-item{
+    position: relative;
+}
+
+.agileits-banner-info a {
+    font-style: italic;
+    padding: 5px 10px;
+    color: #fff;
+    background: rgba(51, 122, 183, 0.6);
+}
+
+.form-group > label, .form-group > input[name="checkbox"] {
+    float: left;
+    margin-bottom: 15px;
+}
+.form-group > label{
+    padding: 4px 4px;
+    margin-bottom: 0px;
+}
+.jislider__button {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 5px;
+    cursor: pointer;
+    border: 3px solid #fff!important;
+}
+.jislider__button.jislider__on {
+    border: 3px solid #0c2149!important;
+}
+.copyright p{
+    margin: 0px 0 0px;
+    padding: 7px 0px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.alert{
+    padding: 10px;
+}
+
+.sa-signup-suggest {
+    font-weight: bold;
+}
+.jislider__controller {
+    width: 130px!important;
+    padding: 6px 0 0 0;
+    background: rgba(0, 0, 0, 0.37);
+}
+.jislider__button.jislider__on{
+    border: 2px solid #0c2149!important;
+}
+@media screen and (min-width: 780px) {
+    .wrap-slider-item{
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 779px) and (min-width: 480px) {
+    .wrap-slider-item{
+        height: 230px;
+    }
+    .signup-features {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 479px) and (min-width: 230px) {
+    .wrap-slider-item{
+        height: 190px;
+    }
+    .jislider__right-arrow, .jislider__left-arrow{
+        bottom: 0 !important;
+    }
+    header .container {
+        background: url("../img/bag_bane.png") 13% 100% no-repeat;
+    }
+    .signup-features {
+        margin-bottom: 30px;
+    }
+}
+
+@font-face {
+    font-family: KhmerMN;
+    src: url(../fonts/KhmerMN-Regular.eot);
+    src: url(../fonts/KhmerMN-Regular.woff2) format("woff2"), url(../fonts/KKhmerMN-Regular.woff) format("woff"), url(../fonts/KKhmerMN-Regular.ttf) format("truetype"), url(../fonts/KKhmerMN-Regular.svg#KhmerMN-Regular) format("svg"), url(../fonts/KKhmerMN-Regular.eot?#iefix) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirLTStd-Roman.eot?v=1.0);
+    src: url(../fonts/AvenirLTStd-Roman.woff2?v=1.0) format("woff2"), url(../fonts/AvenirLTStd-Roman.eot?#iefix) format("embedded-opentype"), url(../fonts/AvenirLTStd-Roman.woff?v=1.0) format("woff"), url(../fonts/AvenirLTStd-Roman.ttf?v=1.0) format("truetype"), url(../fonts/AvenirLTStd-Roman.svg#avenjrregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}

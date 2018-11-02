@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
+});
+Route::get('login', function () {
+    return view('pages.login');
+});
+Route::get('register', function () {
+    return view('pages.register');
+});
+
+Route::get('couser', function () {
+    return view('pages.couser');
+});
+
+Route::get('lesson_detail', function () {
+    return view('pages.lesson_detail');
 });
