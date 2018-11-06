@@ -28,3 +28,7 @@ Route::get('couser', function () {
 Route::get('lesson_detail', function () {
     return view('pages.lesson_detail');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
