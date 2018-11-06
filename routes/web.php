@@ -22,13 +22,17 @@ Route::get('register', function () {
 });
 
 Route::get('couser', function () {
-    return view('pages.couser');
+    return view('pages.course');
 });
 
 Route::get('lesson_detail', function () {
     return view('pages.lesson_detail');
 });
 
+// Route::get('admin', function () {
+//     return view('admin.user.list');
+// });
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('user', 'UserController');
